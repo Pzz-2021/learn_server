@@ -1,0 +1,305 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Page-1" id="qp6Q8r7dpEw-UyeIfAh6">
+    <mxGraphModel dx="-169" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IlTFv40VagByhZ3yIKR5-177" value="saas-gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="160" width="100" height="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-178" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-177">
+          <mxGeometry x="45" y="100" width="10" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-179" value="dms-saas-stk" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="160" width="260" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-180" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="45" y="150" width="10" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-181" value="参数校验" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179" source="IlTFv40VagByhZ3yIKR5-180">
+          <mxGeometry x="0.0939" y="30" relative="1" as="geometry">
+            <mxPoint x="65" y="150" as="sourcePoint" />
+            <mxPoint x="57" y="193" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="159" />
+              <mxPoint x="100" y="193" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-232" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="54" y="209" as="sourcePoint" />
+            <mxPoint x="57" y="249.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="209.10000000000002" />
+              <mxPoint x="100" y="249.10000000000002" />
+              <mxPoint x="57" y="249.10000000000002" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-233" value="1.&amp;nbsp;校验入库单。存在且状态可收货" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-232">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-240" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="54" y="333" as="sourcePoint" />
+            <mxPoint x="57" y="373.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="333.1" />
+              <mxPoint x="100" y="373.1" />
+              <mxPoint x="57" y="373.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-241" value="2.1 校验重复扫码" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-240">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-242" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="54" y="387" as="sourcePoint" />
+            <mxPoint x="57" y="427.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="387.1" />
+              <mxPoint x="100" y="427.1" />
+              <mxPoint x="57" y="427.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-243" value="2.2 退货入库特殊逻辑&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-242">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-249" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="506.95000000000005" as="sourcePoint" />
+            <mxPoint x="58" y="547.05" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101" y="507.05000000000007" />
+              <mxPoint x="101" y="547.0500000000001" />
+              <mxPoint x="58" y="547.0500000000001" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-250" value="2.4 校验是否订单内商品" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-249">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-254" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="635" as="sourcePoint" />
+            <mxPoint x="58" y="675.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101" y="635.1" />
+              <mxPoint x="101" y="675.1" />
+              <mxPoint x="58" y="675.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-255" value="3 校验明细可收货、不超收、可分配" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-254">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-256" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="54" y="692" as="sourcePoint" />
+            <mxPoint x="57" y="732.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="692.1" />
+              <mxPoint x="100" y="732.1" />
+              <mxPoint x="57" y="732.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-257" value="4&amp;nbsp;退货场景校验本地出库记录；&lt;div&gt;&amp;nbsp; &amp;nbsp;无记录：调TTP胎属校验&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-256">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-263" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="54" y="897" as="sourcePoint" />
+            <mxPoint x="57" y="937.0999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="897.0999999999999" />
+              <mxPoint x="100" y="937.0999999999999" />
+              <mxPoint x="57" y="937.0999999999999" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-264" value="填充可收货数据、LPN" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-263">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-266" value="执行收货" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="-170" y="960" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-267" value="&lt;p style=&quot;margin-top: 0px ; margin-bottom: 0px ; color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;pingfang sc&amp;#34; , sans-serif ; text-align: left&quot;&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.9;exitY=0.01;exitPerimeter=0;exitDx=0;exitDy=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-179">
+          <mxGeometry x="0.1212" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="990" as="sourcePoint" />
+            <mxPoint x="58" y="1030.1" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="101" y="990.0999999999999" />
+              <mxPoint x="101" y="1030.1" />
+              <mxPoint x="58" y="1030.1" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-268" value="&lt;div&gt;前置校验通过&lt;/div&gt;执行收货逻辑" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IlTFv40VagByhZ3yIKR5-267">
+          <mxGeometry x="-0.0705" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-182" value="BD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="160" width="100" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-188" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry x="45" y="573" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-189" value="2.5 查询sku信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182" target="IlTFv40VagByhZ3yIKR5-188">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-82" y="574" as="sourcePoint" />
+            <mxPoint x="-361" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-190" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83" y="621" as="targetPoint" />
+            <mxPoint x="45" y="621" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-191" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry x="45" y="760" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-192" value="4.1 查询出库扫码记录" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182" target="IlTFv40VagByhZ3yIKR5-191">
+          <mxGeometry x="-0.0056" relative="1" as="geometry">
+            <mxPoint x="-82" y="761" as="sourcePoint" />
+            <mxPoint x="-1041" y="585" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-193" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83" y="808" as="targetPoint" />
+            <mxPoint x="45" y="808" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-261" value="4.2 调用TTP胎属校验" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry x="-0.0056" relative="1" as="geometry">
+            <mxPoint x="-82" y="833" as="sourcePoint" />
+            <mxPoint x="185" y="833" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-262" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="IlTFv40VagByhZ3yIKR5-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83" y="880" as="targetPoint" />
+            <mxPoint x="189.50000000000023" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-184" value="TTP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="160" width="100" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-185" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-184">
+          <mxGeometry x="45" y="268" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-187" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="IlTFv40VagByhZ3yIKR5-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230.33333333333326" y="316" as="targetPoint" />
+            <mxPoint x="43" y="316" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-260" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-184">
+          <mxGeometry x="45" y="830" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-195" value="dms-minor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="160" width="100" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-246" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-195">
+          <mxGeometry x="45.0033333333331" y="446" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-197" value="手持 App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="160" width="100" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-198" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="IlTFv40VagByhZ3yIKR5-197">
+          <mxGeometry x="45" y="100" width="10" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-199" value="接口调用" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="320" />
+            </Array>
+            <mxPoint x="1396" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-202" value="手持扫码入库" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="IlTFv40VagByhZ3yIKR5-198" target="IlTFv40VagByhZ3yIKR5-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-203" value="1.签名验证&lt;br&gt;2.接口权限验证&lt;br&gt;3.接口路由" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;align=left;" edge="1" parent="1">
+          <mxGeometry x="0.277" relative="1" as="geometry">
+            <mxPoint x="1245" y="262" as="sourcePoint" />
+            <mxPoint x="1245" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1294.62" y="261.98" />
+              <mxPoint x="1294.62" y="299.98" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-230" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1270" as="targetPoint" />
+            <mxPoint x="1230" y="1270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-235" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;唯一码四步校验&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1437" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-186" value="2. 查询TTP条码、商品信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" edge="1" parent="1" target="IlTFv40VagByhZ3yIKR5-185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1399.6666666666667" y="429" as="sourcePoint" />
+            <mxPoint x="1947" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-247" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1399.33" y="654" as="targetPoint" />
+            <mxPoint x="1819.5" y="654" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-248" value="2.3&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查询商品映射&lt;/span&gt;&lt;div&gt;企业后台商品转换&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" edge="1" parent="1" target="IlTFv40VagByhZ3yIKR5-246">
+          <mxGeometry x="0.0418" relative="1" as="geometry">
+            <mxPoint x="1399.33" y="607" as="sourcePoint" />
+            <mxPoint x="1946.663333333333" y="591" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IlTFv40VagByhZ3yIKR5-229" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1255" y="1270" as="targetPoint" />
+            <mxPoint x="1395" y="1270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
